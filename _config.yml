@@ -207,3 +207,5 @@ google:
         sidebar-detail: false
         content_header: false
         content_footer: false
+        content_header: false
+        content_footer: false
