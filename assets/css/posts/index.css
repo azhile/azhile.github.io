@@ -4,7 +4,7 @@
 
 .post-directory {
     font-size: 14px;
-    background: #fff;
+    background: #f8e8e8; /* 柔和粉色 */
     overflow: hidden;
     width: 300px;
     padding-bottom: 1em;
@@ -31,17 +31,17 @@
 .post-directory a:hover,
 .post-directory a:active,
 .post-directory a.on {
-    color: #4183c4;
+    color: #4183c4; /* 浅蓝色 */
 }
 
 .posts-list {
     line-height: 2;
     color: #555;
-    list-style-type:disc;
+    list-style-type: disc;
 }
 
 .posts-list::before {
-/*    content: " ";*/
+    content: " ";
     position: absolute;
     left: 0;
     top: 12px;
@@ -89,10 +89,9 @@
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
-    background-color: #fff;
+    background-color: #f8f8f8; /* 浅灰色 */
     border: 1px solid #ddd;
 }
-
 
 .list-group-item:first-child {
     border-top-left-radius: 4px;
