@@ -4,14 +4,14 @@
 baseurl:
 url: https://mazhuang.org
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
-timezone: Asia/Shanghai
+title: 燕姝羽的个人博客
+subtitle: "如苇草，似星火"
+description: "燕姝羽的个人博客"
+keywords: 码志, Shuyu Yan, azhile, 
+timezone: Asia/Beijing
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2024
 # 源码仓库，请替换成自己的
 repository: mzlogin/mzlogin.github.io
 # 对 css 和 js 资源的 cdn 加速配置
@@ -40,7 +40,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: 燕姝羽
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -60,9 +60,9 @@ highlight_theme: github
 author: Zhuang Ma
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: azhile
+location: Beijing, China
+email: yanshuyu0827@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -112,18 +112,13 @@ subscribe_rss: /feed.xml
 #      INDEX       #
 # ---------------- #
 index:
-    banner:
-        # 首页 banner 区文字颜色
-        color: "#fff"
-        # 首页导航栏文字颜色
-        nav-color: "rgba(255, 255, 255, .5)"
-        # 首页 banner 区背景颜色
-        background-color: "#4183c4"
-        # 首页 banner 区背景图片
-        # background-image: "/assets/images/octicons-bg.png"
-        # background-repeat: "no-repeat"
-        # background-size: "cover"
-
+  banner:
+    color: "#fff"
+    nav-color: "rgba(255, 255, 255, .5)"
+    background: "linear-gradient(to bottom, #f8d7da, #f5e7ea)"
+    # background-image: "/assets/images/octicons-bg.png"
+    # background-repeat: "no-repeat"
+    # background-size: "cover"
 # ---------------- #
 #      Jekyll      #
 # ---------------- #
@@ -210,5 +205,7 @@ google:
         footer: false
         sidebar: false
         sidebar-detail: false
+        content_header: false
+        content_footer: false
         content_header: false
         content_footer: false
