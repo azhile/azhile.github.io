@@ -20,7 +20,8 @@ comments: false
 
 .home .banner,
 .home .site-header {
-    background-color: {{ site.index.banner.background-color | default: '#4183c4'}};
+-   background: {{ site.index.banner.background | default: 'linear-gradient(to right, #ff7e5f, #feb47b)' }};
++   background: {{ site.index.banner.background | default: 'linear-gradient(to bottom, #f8d7da, #f5e7ea)' }};
 }
 
 {% if site.index.banner.background-image %}
