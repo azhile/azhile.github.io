@@ -115,7 +115,7 @@ index:
   banner:
     color: "#fff"
     nav-color: "rgba(255, 255, 255, .5)"
-    background: "linear-gradient(to right, #ffafbd, #ffc3a0）"
+    background: "llinear-gradient(to right, #ff7e5f, #feb47b)"
     # background-image: "/assets/images/octicons-bg.png"
     # background-repeat: "no-repeat"
     # background-size: "cover"
